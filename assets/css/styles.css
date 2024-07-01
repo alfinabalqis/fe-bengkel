@@ -1464,7 +1464,6 @@ Single Page Style
 
 .single-property .main-content h4 {
   font-size: 25px;
-  margin-top: 25px;
   margin-bottom: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #eee;
@@ -1478,7 +1477,7 @@ Single Page Style
   color: #1e1e1e;
   padding: 5px 12px;
   display: inline-block;
-  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .single-property .accordion {
@@ -1661,6 +1660,13 @@ Contact Page Style
   background-color: #003285;
 }
 
+.text-linked a {
+  color: #1e1e1e;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 
 /* 
 ---------------------------------------------
@@ -1694,6 +1700,34 @@ body {
   }
   .header-area .main-nav .nav li:last-child {
     display: none;
+  }
+  .detail-konten {
+    flex-direction: column;
+  }
+  .main-banner .item h2 {
+    font-size: 40px;
+  }
+  .main-banner .owl-nav .owl-prev i, .main-banner .owl-nav .owl-next i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .main-banner .item {
+    height: 800px;
+    padding-top: 80px;
+  }
+  .main-banner .owl-dots {
+    bottom: 100px;
+  }
+  .featured .left-image a {
+    display: none;
+  }
+  .featured .left-image img {
+    padding-left: 0px;
+  }
+  .featured .section-heading h2 {
+    width: 100%;
+    text-align: center;
   }
 }
 
